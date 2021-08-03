@@ -11,6 +11,7 @@ import 'moment/locale/zh-cn';
 
 // import 'stylesheet/app.less';
 import 'stylesheet/theme.less';
+import 'stylesheet/app.css';
 
 const App = () => (
   <Provider {...store}>

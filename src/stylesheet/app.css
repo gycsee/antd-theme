@@ -1,0 +1,90 @@
+/**
+ * Antd Button
+ */
+ .ant-btn {
+  min-width: 84px;
+}
+
+.ant-btn-text,
+.ant-btn-link {
+  min-width: auto;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #2753cb;
+  background: #e3e8f4;
+  border-color: #2753cb;
+}
+.ant-btn-link:hover,
+.ant-btn-link:focus {
+  color: #2753cb;
+  background: #e3e8f4;
+  border-color: #fff;
+}
+
+.ant-btn-background-ghost:hover,
+.ant-btn-background-ghost:focus {
+  color: #2753cb;
+  background: #e3e8f4 !important;
+  border-color: #2753cb;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  background-color: #2753cb;
+  border-color: #2753cb;
+}
+
+.ss-btn-middle-width.ant-btn {
+  min-width: 120px;
+}
+
+.ss-btn-small-width.ant-btn {
+  min-width: 84px;
+}
+
+/**
+ * Antd Radio
+ */
+.ant-radio-group-solid
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  color: #fff;
+  background-color: #2753cb;
+  border-color: #2753cb;
+}
+
+/**
+ * Antd Tabs
+ */
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  background: #eddff3;
+  border: 1px solid #c5c9d0;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  border: 1px solid #e7e7e7;
+}
+
+/**
+ * Antd Menu
+ */
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+  font-size: 16px;
+}
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+  min-width: 16px;
+  font-size: 16px;
+  margin-right: 8px;
+}

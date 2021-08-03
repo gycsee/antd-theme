@@ -3,6 +3,7 @@ import dark from 'antd/dist/dark-theme';
 import aliyun from '@ant-design/aliyun-theme';
 
 const themeVars = require('../vars.json');
+const shanshu = require('./shanshu');
 
 const defaultTheme = {};
 const darkTheme = {};
@@ -24,5 +25,6 @@ themeVars.forEach((group) => {
 export default {
   default: defaultTheme,
   dark: darkTheme,
-  aliyun
+  aliyun,
+  shanshu
 };
